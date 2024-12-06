@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="10" styleClass="full-screen" stylesheets="@../css/styles.css" vgap="10" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.video.controllers.UploadVideoController">
+    <VBox alignment="CENTER" spacing="10" styleClass="full-screen" GridPane.columnIndex="1">
+        <Label styleClass="title" text="Загрузить видео" />
+        <TextField fx:id="titleField" promptText="Название" styleClass="text-field" />
+        <TextArea fx:id="descriptionField" promptText="Описание" styleClass="text-area" />
+        <Button fx:id="uploadButton" onAction="#onSelectFile" prefHeight="41.0" prefWidth="149.0" styleClass="button-select-file" text="Выбрать видео" />
+        <Button fx:id="thumbnailButton" onAction="#onSelectThumbnail" styleClass="button-select-file" text="Выбрать превью" />
+        <Button onAction="#onUpload" prefHeight="41.0" prefWidth="147.0" styleClass="button-upload" text="Загрузить" />
+        <Button onAction="#onBack" prefHeight="42.0" prefWidth="146.0" styleClass="button-back" text="Отмена" />
+    </VBox>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="TOP_CENTER" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.video.controllers.YouTubeController">
+
+    <HBox spacing="10" styleClass="hbox">
+        <Button onAction="#onHome" styleClass="button" text="Главная" />
+        <Button onAction="#onSubscriptions" styleClass="button" text="Подписки" />
+        <TextField fx:id="searchField" promptText="Search" styleClass="text-field" HBox.hgrow="ALWAYS" />
+        <Button onAction="#onSearch" styleClass="button" text="Поиск" />
+        <Button onAction="#onUpload" styleClass="button" text="Загрузить видео" />
+        <Button onAction="#onPersonalAccount" styleClass="button" text="Ваш профиль" />
+    </HBox>
+
+    <ScrollPane fitToWidth="true" fitToHeight="true" GridPane.rowIndex="1">
+        <VBox alignment="TOP_CENTER" prefHeight="783.0" prefWidth="1047.0">
+            <GridPane fx:id="videoGrid" hgap="10" styleClass="grid-pane" vgap="10">
+                <!-- Video thumbnails will be added here dynamically -->
+            </GridPane>
+        </VBox>
+    </ScrollPane>
+
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints maxHeight="735.2" minHeight="31.4" prefHeight="48.0" />
+        <RowConstraints maxHeight="808.2" minHeight="100.0" prefHeight="792.8" />
+    </rowConstraints>
+
+</GridPane>

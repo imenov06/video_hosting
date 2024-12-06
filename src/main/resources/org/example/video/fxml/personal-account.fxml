@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" maxHeight="840" maxWidth="1535" minHeight="840" minWidth="1535" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.video.controllers.PersonalAccountController">
+    <VBox minWidth="600.0" spacing="10" GridPane.columnIndex="1" GridPane.rowIndex="1">
+        <Label fx:id="channelNameLabel" styleClass="title" />
+        <Label fx:id="subscriberCountLabel" styleClass="label1" text="Подписчики: 0" />
+        <Label styleClass="label1" text="Ваши подписки:" />
+        <ListView fx:id="subscriptionsListView" prefHeight="341.0" prefWidth="614.0" styleClass="list-view1" />
+        <Label styleClass="label1" text="Ваши видео:" />
+        <ListView fx:id="videosListView" styleClass="list-view1" />
+        <Label fx:id="totalLikesLabel" styleClass="label1" text="Общее количество лайков: 0" />
+    </VBox>
+   <HBox alignment="CENTER" prefHeight="16.0" prefWidth="327.0" GridPane.columnIndex="2">
+      <children>
+           <Button onAction="#onLogout" styleClass="button" text="Сменить аккаунт" />
+      </children>
+   </HBox>
+   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+      <children>
+          <Button onAction="#onBack" prefWidth="104.0" styleClass="button-back" text="Назад" />      </children>
+   </HBox>
+    <columnConstraints>
+        <ColumnConstraints maxWidth="343.0" minWidth="10.0" prefWidth="343.0" />
+        <ColumnConstraints maxWidth="1076.6000000000001" minWidth="613.0" prefWidth="613.0" />
+        <ColumnConstraints maxWidth="327.0" minWidth="10.0" prefWidth="327.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints maxHeight="40" minHeight="40.0" prefHeight="32.400000953674315" />
+        <RowConstraints maxHeight="825.4" minHeight="700" prefHeight="700" />
+        <RowConstraints maxHeight="37.400000953674315" minHeight="20.0" prefHeight="32.400000953674315" />
+    </rowConstraints>
+</GridPane>

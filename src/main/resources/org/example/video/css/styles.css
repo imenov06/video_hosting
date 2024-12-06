@@ -1,0 +1,229 @@
+/* General styles for the full screen VBox */
+.full-screen {
+    -fx-padding: 20px;
+    -fx-background-color: #f4f4f4;
+    -fx-alignment: center;
+}
+/* Upload button style */
+.button-upload {
+    -fx-background-color: #73ff22; /* Orange background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 1);
+}
+
+.button-upload:hover {
+    -fx-background-color: #94ff89;
+}
+
+.button-upload:pressed {
+    -fx-background-color: #15d8d2;
+}
+
+/* Title label style */
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px 0;
+}
+
+/* Text field and text area styles */
+.text-field, .text-area {
+    -fx-pref-width: 300px;
+    -fx-padding: 10px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: #ffffff;
+    -fx-font-size: 14px;
+}
+
+/* Button styles */
+.button {
+    -fx-background-color: #6200ea;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #3700b3;
+}
+
+.button:pressed {
+    -fx-background-color: #03dac5;
+}
+
+/* Back button style */
+.button-back {
+    -fx-background-color: rgba(248, 101, 101, 0.84); /* Red background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-border-color: #000000; /* Black border color */
+    -fx-border-width: 1px; /* Border width */
+}
+
+
+
+/* Select file button style */
+.button-select-file {
+    -fx-background-color: #009688; /* Teal background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 1);
+}
+
+.button-select-file:hover {
+    -fx-background-color: #00796b;
+}
+
+.button-select-file:pressed {
+    -fx-background-color: #004d40;
+}
+/* General styles for the full screen VBox */
+.full-screen {
+    -fx-padding: 20px;
+    -fx-background-color: #f4f4f4;
+    -fx-alignment: center;
+}
+
+/* Title label style */
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px 0;
+}
+
+/* Text field and text area styles */
+.text-field, .text-area {
+    -fx-pref-width: 300px;
+    -fx-padding: 10px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: #ffffff;
+    -fx-font-size: 14px;
+}
+
+/* Button styles */
+.button {
+    -fx-background-color: #6200ea;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #3700b3;
+}
+
+.button:pressed {
+    -fx-background-color: #03dac5;
+}
+
+/* Back button style */
+.button-back {
+    -fx-background-color: rgba(248, 101, 101, 0.84); /* Red background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-border-color: #000000; /* Black border color */
+    -fx-border-width: 1px; /* Border width */
+}
+
+/* Like button style */
+.button-like {
+    -fx-background-color: #ff4081; /* Pink background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 1);
+}
+
+.button-like:hover {
+    -fx-background-color: #f50057;
+}
+
+.button-like:pressed {
+    -fx-background-color: #c51162;
+}
+
+/* Subscribe button style */
+.button-subscribe {
+    -fx-background-color: #ff5722; /* Orange background color */
+    -fx-text-fill: #ffffff; /* White text color */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 1);
+}
+
+.button-subscribe:hover {
+    -fx-background-color: #e64a19;
+}
+
+.button-subscribe:pressed {
+    -fx-background-color: #d84315;
+}
+
+/* Comment box styles */
+.comment-box {
+    -fx-padding: 10;
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #d0d0d0;
+    -fx-border-width: 1;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.comment-author {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+}
+
+.comment-text {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+    -fx-padding: 5;
+}
+/* Description label style */
+.description {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+    -fx-padding: 10px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 1);
+}
+
+/* styles.css */
+.label1 {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.list-view1 {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+}
+
+.list-view1 .list-cell1 {
+    -fx-padding: 10px;
+    -fx-font-size: 12px;
+}
